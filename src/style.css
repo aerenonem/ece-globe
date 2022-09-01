@@ -1,0 +1,66 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+    background: black;
+}
+
+.webgl
+{
+    top: 0;  
+    outline: none;
+}
+
+.page
+{
+    float: left;
+    width: 50%;
+    height: 100%;
+    left: 50px;
+    position: fixed;
+    background: black;
+    color: white;
+    top: 20%;
+    font-size: 18px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.canvas
+{
+    float: right;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+}
+.link
+{
+    margin-top: 38px;
+}
+p
+{
+    color: gray;
+}
+a
+{
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    padding: 20px;
+    text-decoration: none;
+}
+a:hover
+{
+    background-color: greenyellow;
+}
+h1
+{
+    font-size: 48px;
+    margin-bottom: 34px;
+    font-weight: 700;
+}
